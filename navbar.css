@@ -1,0 +1,84 @@
+body, html{
+  margin: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* .wrapper {
+  position: relative;
+} */
+
+.navbar {
+    display: flex;
+    background-image: url(./assets//elevenfifty.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    background-color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Overpass", "Helvetica", sans-serif;
+    font-size: 15px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+  }
+
+#schedule a {
+  background-color: rgb(43, 121, 171);
+  display: inline-block;
+  line-height: 72px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.schedule {
+  margin: 0;
+}
+
+  .navbar a {
+    letter-spacing: .025em;
+    float: left;
+    color: #e4e4e4;
+    padding: 0px;
+    margin: 0px 20px 0px 0px;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .navbar a:hover {
+    background-color: #222222;
+    color: #e4e4e4;
+  }
+
+  /* .navbar a.schedule {
+    background-color: #67B3DF;
+    padding: 0px;
+    color: white;
+    margin-left: 3px;
+  }*/
+
+  schedule:hover {
+   background-color: #7CC5F0;
+   margin-left: 3px;
+   color: #e4e4e4;
+    }
+
+  /*.navbar a.apply {
+    background-color: #e63030;
+    padding: 0px;
+    color: white;
+    margin-left: 3px;
+  }
+
+  .navbar a.apply:hover {
+    background-color: #DB0000;
+    margin-left: 3px;
+    color: #e4e4e4;
+     } */

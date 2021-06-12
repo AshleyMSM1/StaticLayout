@@ -1,0 +1,9 @@
+:root {
+    --red: #e63030;
+    --yellow: #ebb82c;
+    --gray: #e4e4e4;
+    --darkgray: #333333;
+    
+    --font-one: "Overpass", "Helvetica", sans-serif
+    --font-two: "Open Sans", "Helvetica", sans-serif
+}
